@@ -1,9 +1,8 @@
 <ion-app>
-  <ion-router-outlet>
-    <button ion-button (click)="watch()">Get Position</button>
+ <!-- <ion-router-outlet> -->
+   <button ion-button (click)="watch()">Get Position</button>
     <p>Position: {{ coords }}</p>
     <p>Accuracy: {{ accuracy }}</p>
     <p *ngif="error">{{ error }}</p>
-
-  </ion-router-outlet>
+ <!-- </ion-router-outlet> -->
 </ion-app>
